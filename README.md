@@ -243,13 +243,13 @@ cd linkedin-messenger
 npm install puppeteer-core
 ```
 
-Then open `messenger.js` and fill in your `CONFIG` values.
+Then open `linkedinMessengerBot.js` and fill in your `CONFIG` values.
 
 ---
 
 ## Configuration
 
-All settings live in the `CONFIG` object near the top of `messenger.js`.
+All settings live in the `CONFIG` object near the top of `linkedinMessengerBot.js`.
 
 ```js
 const CONFIG = {
@@ -299,7 +299,7 @@ const CONFIG = {
 
 ## Message Templates
 
-Edit the `MESSAGE` constant at the top of `messenger.js`. Use `\n` for line breaks. `{firstName}` is replaced with the recipient's first name automatically.
+Edit the `MESSAGE` constant at the top of `linkedinMessengerBot.js`. Use `\n` for line breaks. `{firstName}` is replaced with the recipient's first name automatically.
 
 ### Job Search
 ```js
@@ -349,7 +349,7 @@ Published a new piece on [topic] this week — thought of you given your work in
 ## Running the Script
 
 ```bash
-node messenger.js
+node linkedinMessengerBot.js
 ```
 
 Chrome opens in a visible window. Do not close it or the terminal while the script runs.
