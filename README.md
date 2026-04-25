@@ -305,7 +305,7 @@ Edit the `MESSAGE` constant at the top of `messenger.js`. Use `\n` for line brea
 ```js
 const MESSAGE = `Hi {firstName},
 
-I'm exploring Product Manager roles and would love to be considered if anything suitable opens up at your organisation. I bring 4 years in Fintech across B2B and D2C. Resume attached — I'd truly appreciate a referral if you see a fit.`;
+I'm exploring Product Manager roles and would love to be considered if anything suitable opens up at your organisation. I bring 4 years in Fintech across B2B and D2C. Please find my resume attached. I'd truly appreciate a referral if you see a fit.`;
 ```
 
 ### Product Launch
