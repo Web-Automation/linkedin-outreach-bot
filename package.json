@@ -1,0 +1,28 @@
+{
+  "name": "linkedin-outreach-bot",
+  "version": "1.0.0",
+  "description": "Automate personalised LinkedIn outreach to your connections. Built-in duplicate prevention, follow-up sequences, file attachments, and daily limits.",
+  "main": "messenger.js",
+  "scripts": {
+    "start": "node messenger.js",
+    "test": "echo \"No tests defined\" && exit 0"
+  },
+  "keywords": [
+    "linkedin",
+    "automation",
+    "puppeteer",
+    "outreach",
+    "messaging",
+    "job-search",
+    "marketing",
+    "bot"
+  ],
+  "author": "YOUR NAME",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
