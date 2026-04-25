@@ -238,7 +238,7 @@ Any single layer triggering is enough to skip. The script always errs on the sid
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/linkedin-messenger.git
+git clone https://github.com/Web-Automation/linkedin-outreach-bot.git
 cd linkedin-messenger
 npm install puppeteer-core
 ```
